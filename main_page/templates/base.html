@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     {% block css %}
     {% endblock %}
+    <link rel="stylesheet" href="main_page/css/style.css">
 
     <title>{{page_title}}</title>
 
 
 </head>
 <body>
+
 <center>
+   <header>
+      <nav>
+          <a href="/dogs"> Собаки </a>
+          <a href="/cats"> Кошки </a>
+      </nav>
+   </header>
 
 {% block content %}
 {% endblock %}
