@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     {% block css %}
     {% endblock %}
-    <link rel="stylesheet" href="main_page/css/style.css">
+    <style>
+        header {
+        height: 80px;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        nav {
+        display: flex;
+        justify-content: center;
+        }
+        a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 18px;
+        }
+    </style>
 
     <title>{{page_title}}</title>
 
