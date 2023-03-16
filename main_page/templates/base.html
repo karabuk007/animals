@@ -11,19 +11,24 @@
         background-color: #333;
         color: #fff;
         display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+        align-items:center;
+        }
         nav {
         display: flex;
         justify-content: center;
         }
-        a {
-        color: #fff;
+        nav a {
+        color: #d5981b;
         text-decoration: none;
         margin: 0 10px;
         font-size: 18px;
         }
+        header img {
+        img-align: left;
+        height: 80px;
+        width: 80px;
+        }
+
     </style>
 
     <title>{{page_title}}</title>
@@ -32,14 +37,19 @@
 </head>
 <body>
 
-<center>
-   <header>
-      <nav>
-          <a href="/dogs"> Собаки </a>
-          <a href="/cats"> Кошки </a>
-      </nav>
-   </header>
 
+   <header>
+       <p> <img src="https://pic.rutubelist.ru/user/50/f7/50f7331fd4eb32343dae3a156a8df09f.jpg"> </p>
+       <center>
+           <nav>
+           <a href="/dogs"> Собаки </a>
+           <a href="/cats"> Кошки </a>
+           </nav>
+
+       </center>
+
+   </header>
+<center>
 {% block content %}
 {% endblock %}
 </center>
