@@ -6,15 +6,14 @@
 
 {% block content %}
 <h1> {{page_title}} </h1>
-
         {% for p in posts %}
             {% if p.photo %}
+            <div class="brd">
                 <p>  <img class = "img-article-left thumb" src = "{{p.photo.url}}"> </p>
 
                 <h2> {{p.name}} </h2>
                 <p> {{p.description}} </p>
-
+            </div>
             {% endif %}
-
         {% endfor %}
 {% endblock %}

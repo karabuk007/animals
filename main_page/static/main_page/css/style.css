@@ -17,3 +17,8 @@ a {
        margin: 0 10px;
        font-size: 18px;
    }
+header img {
+        img-align: left;
+        height: 80px;
+        width: 80px;
+        }
