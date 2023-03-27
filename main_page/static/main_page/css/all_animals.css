@@ -29,13 +29,13 @@ background-color: #d51bac;
 color: blue;
 }
 .brd {
-    border: 6px solid grey;
+    border: 0px;
     padding: 10px 20px 10px 20px;
     width: 500px;
     margin: 20px auto;
-    background-color: #fff;
     word-break: break-word;
     background-image: url(https://top-fon.com/uploads/posts/2023-02/1675386847_top-fon-com-p-nenavyazchivii-fon-dlya-prezentatsii-1.jpg);
-
+    border-radius: 15px;
 
     }
+
