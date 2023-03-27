@@ -12,10 +12,7 @@
                 <p>  <img class = "img-article-left thumb" src = "{{p.photo.url}}"> </p>
 
                 <h2> {{p.name}} </h2>
-                 {% if len(p.description) > 140 %}
-                    <p> {{p.description[:141] + "..."}} </p>
-                 {% else %}
-                    <p> {{p.description}} </p>
+                 <p> {{p.description}} </p>
                   
 
                 </div>
