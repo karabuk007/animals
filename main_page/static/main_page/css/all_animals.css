@@ -2,16 +2,6 @@ img {
     height: 400px;
     width: 400px;
     }
-nav {
-    display: flex;
-    justify-content: center;
-    }
-nav a {
-    color: #d5981b;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 18px;
-    }
 body {
     background-color: #f28bf0;
     color: #475be5;
