@@ -1,33 +1,34 @@
 img {
-height: 400px;
-width: 400px;
-}
+    height: 400px;
+    width: 400px;
+    }
 header {
-        height: 80px;
-        width: 100%;
-        background-color: #333;
-        color: #fff;
-        display: flex;
-        align-items:center;
-        }
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    }
 nav {
-      display: flex;
-      justify-content: center; }
+    display: flex;
+    justify-content: center;
+    }
 nav a {
-        color: #d5981b;
-        text-decoration: none;
-        margin: 0 10px;
-        font-size: 18px;
-        }
+    color: #d5981b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    }
 header img {
-        img-align: left;
-        height: 80px;
-        width: 80px;
-        }
+    img-align: left;
+    height: 80px;
+    width: 80px;
+    }
 body {
-background-color: #d51bac;
-color: blue;
-}
+    background-color: #f28bf0;
+    color: #475be5;
+     }
 .brd {
     border: 0px;
     padding: 10px 20px 10px 20px;
@@ -36,7 +37,8 @@ color: blue;
     word-break: break-word;
     background-image: url(https://top-fon.com/uploads/posts/2023-02/1675386847_top-fon-com-p-nenavyazchivii-fon-dlya-prezentatsii-1.jpg);
     border-radius: 15px;
-    box-shadow: 4px 3px 3px 2px #abf1f2;
-
+    box-shadow: 0px 0px 6px 6px grey;
     }
-
+.change_color_link:hover{
+    background: #f21957;
+   }
