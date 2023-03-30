@@ -19,8 +19,9 @@ body {
     float: left;
     position: relative;
     left: 20%;
+    text-decoration: none;
     }
-header {
+header{
     height: 80px;
     width: 100%;
     background-color: #333;
@@ -47,4 +48,8 @@ header img {
 .change_color_link:hover {
     background: #f21957;
    }
+.border-button{
+    text-decoration: none;
+    color: #475be5;
+    }
 
