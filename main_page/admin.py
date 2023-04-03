@@ -9,5 +9,6 @@ class Main_PageAdmin(admin.ModelAdmin):
 
 admin.site.register(Dogs, Main_PageAdmin)
 admin.site.register(Cats, Main_PageAdmin)
+admin.site.register(Classmates, Main_PageAdmin)
 
 
