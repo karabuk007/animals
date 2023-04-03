@@ -11,3 +11,4 @@ def for_cats(request):
 def for_dogs(request):
     posts = Dogs.objects.all()
     return render(request, 'animals.html', {'posts': posts, 'page_title': 'Пёсики'})
+

@@ -4,8 +4,11 @@ img {
     border-radius: 15px;
     }
 body {
-    background-color: #f28bf0;
+    background-image: url(https://cs14.pikabu.ru/post_img/2021/12/28/2/og_og_1640656756292778240.jpg);
     color: #475be5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
      }
 .brd {
     border: 0px;
@@ -45,9 +48,15 @@ header img {
     width: 80px;
     border-radius: 0px;
     }
-.change_color_link:hover {
-    background: #f21957;
+.header_button:hover {
+    background: white;
+    border-radius: 5px;
    }
+.header_button:active{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    }
 .border-button{
     text-decoration: none;
     color: #475be5;
