@@ -3,12 +3,20 @@ img {
     width: 400px;
     border-radius: 15px;
     }
+.page{
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
 body {
     background-image: url(https://cs14.pikabu.ru/post_img/2021/12/28/2/og_og_1640656756292778240.jpg);
     color: #d62690;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0px;
      }
 .brd {
     border: 0px;
@@ -16,7 +24,7 @@ body {
     width: 500px;
     margin: 40px;
     word-break: break-word;
-    background-image: url(https://top-fon.com/uploads/posts/2023-02/1675386847_top-fon-com-p-nenavyazchivii-fon-dlya-prezentatsii-1.jpg);
+    background-image: url(https://klike.net/uploads/posts/2022-12/1670912461_2-1.jpg);
     border-radius: 15px;
     box-shadow: 0px 0px 6px 6px grey;
     float: left;
@@ -30,7 +38,7 @@ header{
     background-color: #333;
     color: #fff;
     display: flex;
-    align-items:center;
+    align-items: center;
     }
 nav {
     display: flex;
@@ -61,4 +69,28 @@ header img {
     text-decoration: none;
     color: #475be5;
     }
-
+footer{
+    padding: 50px;
+    background-color: #48d8f4;
+    height: 200px;
+    margin-top: auto;
+    }
+.footer_button{
+    margin: 0px;
+    padding: 0px;
+   
+   
+    }
+.footer_button:hover{
+    background-color: white;
+    border: 3px solid red;
+    }
+.footer_button:active{
+    background-color: orange;
+    border: 3px solid red;
+    }
+.footer_img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    }

@@ -23,7 +23,7 @@ from main_page.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('main_page.urls')),     # http://127.0.0.1:8000/dogs
+    path('', include('main_page.urls')),
 
 
 ]
