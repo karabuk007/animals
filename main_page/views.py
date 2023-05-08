@@ -3,15 +3,28 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import *
 def index(request):
-    return render(request, 'main_page.html')
+    posts = MainPage.objects.all()
+    return render(request, 'main_page_content.html', {'posts': posts})
 def for_cats(request):
     posts = Cats.objects.all()
-    return render(request, 'animals.html', {'posts': posts, 'page_title': 'Котики'})
+    context = {
+        'posts': posts,
+        'page_title': 'Котики'
+    }
+    return render(request, 'animals.html', context=context)
 
 def for_dogs(request):
     posts = Dogs.objects.all()
-    return render(request, 'animals.html', {'posts': posts, 'page_title': 'Пёсики'})
+    context = {
+        'posts': posts,
+        'page_title': 'Пёсики'
+    }
+    return render(request, 'animals.html', context=context)
 
 def for_classmates(request):
     posts = Classmates.objects.all()
-    return render(request, 'animals.html', {'posts': posts, 'page_title': 'Одноклассники'})
+    context = {
+        'posts': posts,
+        'page_title': 'Одноклассники'
+    }
+    return render(request, 'animals.html', context=context)

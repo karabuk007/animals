@@ -2,7 +2,7 @@ from django.contrib import admin
 
 from .models import *
 class Main_PageAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'description', 'homecountry', 'photo')
+    list_display = ('id', 'name', 'description', 'photo')
     list_display_links = ('id', 'name')
     search_fields = ('name', 'description')
 
@@ -10,5 +10,6 @@ class Main_PageAdmin(admin.ModelAdmin):
 admin.site.register(Dogs, Main_PageAdmin)
 admin.site.register(Cats, Main_PageAdmin)
 admin.site.register(Classmates, Main_PageAdmin)
+admin.site.register(MainPage, Main_PageAdmin)
 
 

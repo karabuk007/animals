@@ -9,9 +9,10 @@
 <body>
     <div class="page">
     {% include "header.html" %}
-
-
-    <center> <h1>ХАХАХАХХАХАХАХАХАХАХАХАХАХАХ, если это кто-нибудь увидит, то я вам не завидую </h1> </center>
+    <center>
+        {% block content %}
+        {% endblock %}
+    </center>
     {% include "footer.html" %}
      </div>
 

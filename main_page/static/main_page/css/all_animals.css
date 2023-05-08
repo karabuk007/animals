@@ -29,8 +29,10 @@ body {
     box-shadow: 0px 0px 6px 6px grey;
     float: left;
     position: relative;
-    left: 20%;
+    left: 16%;
     text-decoration: none;
+
+
     }
 header{
     height: 80px;
@@ -69,11 +71,18 @@ header img {
     text-decoration: none;
     color: #475be5;
     }
+buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 30px;
+}
 footer{
     padding: 50px;
-    background-color: #48d8f4;
+    background-color: #f2fbfa;
     height: 200px;
     margin-top: auto;
+    color: #63d2de;
     }
 .footer_button{
     margin: 0px;
